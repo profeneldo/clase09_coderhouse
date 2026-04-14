@@ -1,0 +1,216 @@
+:root{
+    --fondo_header: cornflowerblue ;
+    --color_header: aqua;
+
+    --fondo_titulo: #0a33ed;
+    --color-titulo: white;
+
+    --fondo_titulo_inferior: #0db7f7;
+
+    --fondo_seccion: #eaeded;
+    --color_seccion: grey;
+
+    --fondo-guardar: #0a33ed;
+    --color-guardar: white;
+
+    --fondo-cancelar: cornflowerblue;
+    --color-cancelar: white;
+
+}
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+body {
+    font-family: sans-serif;
+    background-image: url(../assets/fondo/round.png);
+    
+}
+
+header {
+    background-color: cornflowerblue;
+    color: aqua;
+    text-align: center;
+}
+
+.titulosuperior{
+    background-color:  #0a33ed;
+    padding: 10px;
+    letter-spacing: 5px;
+
+    
+}
+
+
+.titulocentro {
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-size: 40px;
+    margin: 26px;  
+    word-spacing: 8px;
+    letter-spacing: 5px;
+}
+
+
+.tituloinferior{
+    font-size: 20px;
+    background-color: #0db7f7;
+    color: white;
+    text-align: right;
+    padding: 10px;
+}
+
+section {
+    width: 80%;
+    background-color: #eaeded;
+    color: grey;
+    text-align: justify;
+    padding-bottom: 20px;
+    margin: 25px auto;
+    
+    
+}
+
+section h2 {
+    background-color: #0db7f7;
+    color: white;
+    padding: 10px 10px;
+}
+
+section ul{
+    margin-left: 70px;
+}
+
+section p {
+    padding: 0px 20px;
+    margin: 16px 0;
+}
+
+article{
+    margin: 20px auto;
+    text-align: center;
+}
+
+article img{
+    width: 60%;
+    height: 50%;
+    box-shadow:  15px 15px 20px gray; 
+  
+}
+
+footer {
+    
+    background-color: #0db7f7;
+    color: white;
+    text-align: center;
+        
+}
+
+
+footer h4 {
+    padding: 20px 0px;
+    letter-spacing: 5px;
+}
+
+
+header a{
+    color: #fff;
+    text-decoration: none;
+    
+   
+}
+
+/* Formulario */
+
+.formulario{
+
+   	width: 60%;
+	margin: 50px auto;
+	padding: 15px;
+
+}
+
+.formulario h2{
+	margin-bottom: 20px;
+    
+}
+
+form{
+text-align:left;
+}
+
+input, textarea, select {
+width: 100%;
+padding: 12px 20px;
+margin: 8px 0px; 
+border: 1px solid #ccc;
+border-radius: 10px; 
+background-color: #fff;
+
+}
+
+.guardar, .cancelar {
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    border: none;
+    border-radius: 10px;
+}
+
+.guardar{
+    background-color: #0a33ed;
+    color: white;
+}
+
+.guardar:hover{
+    background-color: #0db9f779 ;
+}
+
+.cancelar {
+    background-color: cornflowerblue;
+    color: white;
+
+}
+
+.cancelar:hover{
+    background-color: #0db9f779;
+
+}
+
+/* boton subir */
+
+.boton{
+	width: 70px;
+	height: 40px;
+	background-color: cornflowerblue;
+	border-radius: 5px;
+
+	position: fixed;
+	bottom: 55px;
+	right: 15px;
+	text-align: center;
+
+    transition: all 1s;
+	
+}
+
+.boton:hover{
+	width: 90px;
+    background-color: #0a33ed;
+    
+}
+
+.boton p{
+	color: white;
+    text-align: center;
+    letter-spacing: 1px;
+    margin: 10px auto;
+}
+
